@@ -33,6 +33,16 @@ header p{
 
 main{
     background-color: rgb(196, 195, 195);
+    font-family: var(--fonte03);
+}
+section{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+section p{
+    padding: 10px;
+    font-size: 2vw;
+    
 }
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.144);
