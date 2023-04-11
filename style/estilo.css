@@ -36,19 +36,33 @@ main{
     font-family: var(--fonte03);
 }
 section{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3vw;
 }
 section p{
     padding: 10px;
-    font-size: 2vw;
-    
+    margin: 30px;
 }
 section.imagem p{
-    background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgba(0, 0, 0, 0.452);
     display: inline-block;
+    color: white;
 }
-
+section#img01{
+    background-image: url('../images/background001.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+section#img02{
+    background-image: url('../images/background002.jpg');
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+}
 section.normal{
     background-color: white;
 }
